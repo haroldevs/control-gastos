@@ -16,8 +16,6 @@ const NuevoPresupuesto = ({
     }
     setMensaje("");
     setIsValidPresupuesto(true);
-
-    console.log(Number(presupuesto));
   };
   return (
     <div className="contenedor-presupuesto contenedor sombra">
